@@ -1,4 +1,4 @@
-# Mid-Project: Online Retail Analysis
+# Mid-Project: Global Sales Transactions Analysis
 
 This repository contains the mid-project analysis for online retail transactions.
 
