@@ -1,6 +1,12 @@
 import streamlit as st
 import pandas as pd
 
+st.set_page_config(
+    page_title="Home",
+    page_icon="🏠"
+)
+
+st.title("Home")
 st.set_page_config(page_title="Sales Transactions Analysis", layout="wide")
 
 st.title("Global Sales Transactions Analysis")
