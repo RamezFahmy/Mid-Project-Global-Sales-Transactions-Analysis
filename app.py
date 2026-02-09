@@ -1,11 +1,22 @@
 import streamlit as st
+import pandas as pd
+import plotly.express as px
+
+st.set_page_config(page_title="Sales Transactions Analysis", layout="wide")
+
 st.title("Global Sales Transactions Analysis")
-st.header("Data Overview")
-st.write("This dataset contains global sales transactions across multiple regions, product categories, and sales channels.")
-st.write(f"Number of rows: {df.shape[0]}")
-st.write(f"Number of columns: {df.shape[1]}")
+
+st.write("""
+This application presents a mid-project analysis of global sales transactions
+across regions, product categories, and sales channels.
+""")
+
+df = pd.read_csv("Sales Clenad_df.csv")
+
+st.header("Dataset Overview")
+st.write(f"Rows: {df.shape[0]}")
+st.write(f"Columns: {df.shape[1]}")
+
 st.dataframe(df.head())
-st.subheader("Sales Channel Distribution")
-st.bar_chart(df['Sales Channel'].value_counts())
-st.subheader("Q5: Sales Contribution by Product Category")
-st.write("This chart shows which product categories contribute the most to total sales.")
+
+st.info("Use the sidebar to navigate through the analysis pages.")
