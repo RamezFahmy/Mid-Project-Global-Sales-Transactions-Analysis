@@ -1,2 +1,12 @@
 import streamlit as st
 st.title("Global Sales Transactions Analysis")
+st.header("Data Overview")
+st.write("This dataset contains global sales transactions across multiple regions, product categories, and sales channels.")
+
+st.write(f"Number of rows: {df.shape[0]}")
+st.write(f"Number of columns: {df.shape[1]}")
+st.dataframe(df.head())
+st.subheader("Sales Channel Distribution")
+st.bar_chart(df['Sales Channel'].value_counts())
+st.subheader("Q5: Sales Contribution by Product Category")
+st.write("This chart shows which product categories contribute the most to total sales.")
