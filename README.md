@@ -1,4 +1,4 @@
-#Mid-Project: Global Sales Transactions Analysis
+#Mid-Project: Global Sales Transactions Analysis#
 
 ##Project Overview
 
