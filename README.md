@@ -24,7 +24,6 @@ This project presents an end-to-end data analysis of a global sales transactions
 - **Key Dimensions**: Region, Product Category, Sales Channel, Order Date
 - **Metrics**: Units Sold, Total Revenue, Total Profit
 
-----
 ## Key Columns
 
 ### Geographic Information
@@ -59,7 +58,6 @@ The dataset was prepared for analysis using the following steps:
 - Standardized column names for consistency
 - Ensured numeric fields were properly formatted
 
-----
 **Output**
 
 Cleaned dataset used for all analysis and visualizations
@@ -79,6 +77,7 @@ Verified dataset size and structure after cleaning
 
 This step ensured a clear understanding of data composition before performing business analysis.
 
+---
 ## 📈 Data Analysis
 
 The analysis focused on answering key business questions.
@@ -107,16 +106,17 @@ Calculated as:
 - Identified most profitable markets
 - Distinguished revenue performance from profitability
 
-**🌐 Streamlit Web  Application**
+---
+## 🌐 Streamlit Web  Application
 
 The project includes a multi-page interactive Streamlit application.
 
-**Application Structure** 
+### Application Structure
 Mid-Project - Global Sales Data Analysis/
 │
-├── app.py                       # Home page
+├── app.py                        Home page
 ├── Dataset/
-│   └── Sales Clenad_df.csv      # Dataset used in analysis
+│   └── Sales Clenad_df.csv       Dataset used in analysis
 ├── pages/
 │   ├── Data Exploration.py
 │   ├── Data Cleaning.py
@@ -126,59 +126,58 @@ Mid-Project - Global Sales Data Analysis/
 │   └── Jupyter analysis notebook
 └── README.md
 
-**Application Pages**
-🏠 Home
-Project overview
-Dataset metrics
-Sample data preview
+----
+### Application Pages
+### 🏠 Home
+- Project overview
+- Dataset metrics
+- Sample data preview
 
-🔍 Data Exploration
-Dataset structure
-Summary statistics
-Categorical distributions
+### 🔍 Data Exploration
+- Dataset structure
+- Summary statistics
+- Categorical distributions
 
-🧹 Data Cleaning
-Cleaning steps documentation
-Missing value verification
-Dataset size confirmation
-Cleaned data preview
+### 🧹 Data Cleaning
+- Cleaning steps documentation
+- Missing value verification
+- Dataset size confirmation
+- Cleaned data preview
 
-📊 Data Analysis
-Revenue by product category
-Average Order Value by region
+### 📊 Data Analysis
+- Revenue by product category
+- Average Order Value by region
 
-📈 Data Visualization
-Monthly revenue trend
-Profit by region chart
+### 📈 Data Visualization
+- Monthly revenue trend
+- Profit by region chart
 
-🚀 Deployment
+### 🚀 Deployment
 **The application is deployed using:**
-GitHub (repository hosting)
-Streamlit Cloud (web deployment)
+- GitHub (repository hosting)
+- Streamlit Cloud (web deployment)
 
-Run Locally
-pip install streamlit pandas matplotlib
-streamlit run app.py
+----
+## 🛠 Technologies Used
+- Python 3.x
+- Pandas
+- Matplotlib
+- Streamlit
+- GitHub
+- Streamlit Cloud
 
-🛠 Technologies Used
-Python 3.x
-Pandas
-Matplotlib
-Streamlit
-GitHub
-Streamlit Cloud
+---
+## 📌 Project Workflow
+- Data loading
+- Data cleaning
+- Exploratory data analysis
+- Business-focused analysis
+- Visualization
+- Streamlit development
 
-📌 Project Workflow
-Data loading
-Data cleaning
-Exploratory data analysis
-Business-focused analysis
-Visualization
-Streamlit development
-Cloud deployment
 
-📽 Project Demonstration
+## 📽 Project Demonstration
 
-Streamlit Public Link: (https://mid-project-global-sales-transactions-analysis-qphburpqcbkbjob.streamlit.app/Home)
-Video Walkthrough: (Add Google Drive or YouTube link here)
-Powepoint Presentation: (https://docs.google.com/presentation/d/1XXPwXGRZhUOWr1dT9hxQ5ed3HWPGU2AD/edit?usp=drive_link&ouid=113635610336734727227&rtpof=true&sd=true)
+- Streamlit Public Link: (https://mid-project-global-sales-transactions-analysis-qphburpqcbkbjob.streamlit.app/Home)
+- Video Walkthrough: (Add Google Drive or YouTube link here)
+- Powepoint Presentation: (https://docs.google.com/presentation/d/1XXPwXGRZhUOWr1dT9hxQ5ed3HWPGU2AD/edit?usp=drive_link&ouid=113635610336734727227&rtpof=true&sd=true)
