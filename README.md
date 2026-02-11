@@ -1,48 +1,55 @@
-📊 **Mid-Project: Global Sales Transactions Analysis**
-📌 Project Overview
+#📊 Mid-Project: Global Sales Transactions Analysis
 
+##📌 Project Overview
 This project presents an end-to-end data analysis of a global sales transactions dataset. The objective is to explore, clean, analyze, and visualize sales data, then deploy the results using an interactive Streamlit web application.
 
-- The project demonstrates practical skills in:
+---
+###The project demonstrates practical skills in:
 - Data cleaning and preparation
 - Exploratory data analysis (EDA)
 - Business-driven analytical questions
+- Data visualization
+- Web app deployment using Streamlit Cloud
 
-**Data visualization**
-Web app deployment using Streamlit Cloud
+--- 
+##📂 Dataset Description
+###Dataset Information
 
-📂 Dataset Description
-Dataset Information
+- **Source File**: https://www.kaggle.com/datasets/okhiriadaveoseghale/100000-sales-records?utm_source=chatgpt.com
+- **Scope**:Global sales transactions
+- **Records**:10K Sales transactions across multiple regions
+- **Columns**:15 featues including product details, channels and order informations.
+- **Key Dimensions**: Region, Product Category, Sales Channel, Order Date
+- **Metrics**: Units Sold, Total Revenue, Total Profit
 
-- Source File: https://www.kaggle.com/datasets/okhiriadaveoseghale/100000-sales-records?utm_source=chatgpt.com
-- Scope: Global sales transactions
-- Records: Sales transactions across multiple regions
-- Key Dimensions: Region, Product Category, Sales Channel, Order Date
-- Metrics: Units Sold, Total Revenue, Total Profit
+----
+##Key Columns
 
-**Key Columns**
-
-**Geographic Information**
+###Geographic Information
 - Region
 - Country
-**Product Information**                         
+  
+###Product Information                       
 - item type
 - sales channel
-**Transaction Details**
+  
+###Transaction Details
 - Order id
 - Order date
 - Ship date
 - Units sold
-**Financial Metrics**
+  
+###Financial Metrics
 - Unit price
 - Unit cost
 - Total revenue
 - Total profit
 
-**🧹 Data Cleaning Process**
+----
+##🧹 Data Cleaning Process
 The dataset was prepared for analysis using the following steps:
 
-**Cleaning Steps Applied**
+###Cleaning Steps Applied
 
 - Removed duplicate records
 - Checked and verified missing values
@@ -50,10 +57,12 @@ The dataset was prepared for analysis using the following steps:
 - Standardized column names for consistency
 - Ensured numeric fields were properly formatted
 
+----
 **Output**
 Cleaned dataset used for all analysis and visualizations
 Verified dataset size and structure after cleaning
 
+----
 **🔎 Exploratory Data Analysis (EDA)**
 
 The exploration phase included:
